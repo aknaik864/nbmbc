@@ -1,0 +1,325 @@
+/*
+ * CSS file for SeeCSD webpage
+ * Author: Anjali Naik
+ */
+
+body{
+    color: #fff !important;
+}
+
+main {
+    margin-top: 4% !important;
+}
+
+h1{
+    font-family: 'Raleway', serif !important;
+    color: #a94e86 !important;
+}
+
+h2{
+    color: #a94e86  !important;
+    font-family: 'Raleway', serif !important;
+    margin-top: 0% !important;
+}
+
+h3{
+    color: #000 !important;
+    font-family: 'Raleway', serif !important;
+}
+
+h4{
+    font-family: 'Josefin Sans', serif !important;
+    color: #000 !important;
+    font-size: 23px important!;
+}
+
+h5{
+    font-family: 'Josefin Sans', serif !important;
+    color: #fff !important;
+    font-size: 30px !important;
+}
+
+h6{
+    font-family: 'Josefin Sans', serif !important;
+    color: #fff !important;
+    font-size: 19px !important;
+    line-height: 1.6 !important;
+}
+
+p{
+    font-family: 'Josefin Sans', serif !important;
+    color: #000 !important;
+    font-size: 19px;
+    line-height: 1.5 !important;
+}
+
+{
+    
+}
+
+a:link {
+    color: #a94e86 !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #a94e86 !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #a94e86 !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: gold !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.yellowNews{
+    margin: 0px !important;
+    background-image: linear-gradient(to bottom right, white, gold) !important;
+    color: #000 !important;
+
+}
+
+.text-box{
+    opacity: 1 !important;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.container-fluid{
+
+    padding:0% !important;
+    background-color: #fdfdfd !important;
+}
+
+
+.butt {
+    background-color: #e7e7e7; color: black;
+    font-size: 16px !important;
+    padding: 16px;
+    letter-spacing: 4px;
+    border: 0;
+    margin: auto;
+}
+
+.vertical{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #000 !important;
+      z-index: 9999;
+
+      border: hidden !important;
+      font-size: 12px !important;
+      line-height: 2 !important;
+      font-family: 'Raleway', serif !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    padding-top: 4px;
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #535d6d !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #535d6d !important;
+  }
+  
+
+  
+  /*
+   * RADIO AND TOGGLE CSS DESIGNS BY IRKO PALENIUS
+   * GITHUB: https://ispal.github.io/CssCheckbox/
+   * CODEPEN: https://codepen.io/ispal/pen/jWJabg
+   */
+  
+  /*
+   * RADIO BUTTONS
+   */
+  
+  
+    .section {
+  text-align: center;
+  height: 70%;
+  margin: 0 auto;
+  padding: 1em 0; }
+  .section__title {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    margin-bottom: 3em; }
+    
+    
+.toggle-button {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  margin: 0 20px; }
+  .toggle-button label {
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: left; }
+  .toggle-button input {
+    display: none; }
+  .toggle-button__icon {
+    cursor: pointer;
+    pointer-events: none; }
+    .toggle-button__icon:before, .toggle-button__icon:after {
+      content: "";
+      position: absolute;
+      transition: 0.2s ease-out; }
+      
+      
+
+@media only screen and (max-width: 480px) {
+  .toggle-button--valo {
+    display: block;
+    width: 110px;
+    margin: 0 auto 10px auto; } }
+
+.toggle-button--valo label {
+  width: 110px;
+  height: 20px;
+  line-height: 20px;
+  transition: all 0.2s; }
+  .toggle-button--valo label:before, .toggle-button--valo label:after {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 110px;
+    transition: all 0.2s .1s ease-out; }
+  .toggle-button--valo label:before {
+    content: attr(data-text); }
+
+.toggle-button--valo input:checked ~ .toggle-button__icon:after {
+  transform: translate(0, 0);
+  animation: show .2s; }
+
+.toggle-button--valo .toggle-button__icon {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    border-radius: 50%; }
+  .toggle-button--valo .toggle-button__icon:before, .toggle-button--valo .toggle-button__icon:after {
+    border-radius: 50%; }
+  .toggle-button--valo .toggle-button__icon:before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.15); }
+  .toggle-button--valo .toggle-button__icon:after {
+    top: 4px;
+    left: 4px;
+    width: 60%;
+    height: 60%;
+    background: #61B136;
+    animation: hide .2s ease-out;
+    transform: translate(0, 200%);
+    transition: none; }
+
+.toggle-button--valo:hover input:not(:checked) ~ .toggle-button__icon {
+  animation: hover .2s; }
+
+.toggle-button--valo:hover input:not(:checked) ~ label:before {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); }
+
+@keyframes hide {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(0, -200%); } }
+
+@keyframes show {
+  0% {
+    transform: translate(0, 200%); }
+  100% {
+    transform: translate(0, 0); } }
+
+@keyframes hover {
+  0% {
+    transform: scale(1); }
+  30% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+
+  
+  
+ 
+
+/* 
+ *CHECK BOXES
+ */
+  
+  
+
+  
+
+/*
+ * Toggle button styles
+ */
+
+.toggle-button--tuli label {
+  line-height: 20px;
+  text-indent: 30px; }
+
+.toggle-button--tuli input[type=checkbox]:checked ~ .toggle-button__icon {
+  background: #fff; }
+  .toggle-button--tuli input[type=checkbox]:checked ~ .toggle-button__icon:before, .toggle-button--tuli input[type=checkbox]:checked ~ .toggle-button__icon:after {
+    opacity: 1; }
+
+.toggle-button--tuli .toggle-button__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s;
+  border: 2px solid #fff;
+  border-radius: 1px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
+  .toggle-button--tuli .toggle-button__icon:before, .toggle-button--tuli .toggle-button__icon:after {
+    top: 5px;
+    left: 2px;
+    width: 12px;
+    height: 2px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    top: 35%;
+    background: #61B136;
+    opacity: 0;
+    transform-origin: left center; }
+  .toggle-button--tuli .toggle-button__icon:before {
+    transform: translate(0, 0) rotate(45deg) scale(0.6, 1); }
+  .toggle-button--tuli .toggle-button__icon:after {
+    transform: translate(4px, 6px) rotate(-45deg); }
+
+.toggle-button--tuli:hover input[type=checkbox]:not(:checked) ~ .toggle-button__icon {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
